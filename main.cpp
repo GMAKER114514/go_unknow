@@ -7,9 +7,9 @@ void out(){
     for(int i=0;stop;i++){
         if(i>29999 or a[i]==0){
             stop-=1;
-            system("CLS");
+            cout<<endl;
             continue;
-        }
+        }cout<<a[i]<<' ';
     }
 }
 
@@ -33,7 +33,7 @@ void crash(int first){
         mx[ind+1]=de[ind];
         de[ind]+=1;
         ind+=1;
-        //out();
+        out();
     }
 }
 
